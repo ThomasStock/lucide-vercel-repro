@@ -50,9 +50,6 @@ dependencies:
   clsx:
     specifier: ^2.1.1
     version: 2.1.1
-  lucide-astro:
-    specifier: ^0.473.0
-    version: 0.473.0(astro@5.1.9)
   lucide-react:
     specifier: ^0.474.0
     version: 0.474.0(react@19.0.0)
@@ -3010,14 +3007,6 @@ packages:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
     dependencies:
       yallist: 3.1.1
-    dev: false
-
-  /lucide-astro@0.473.0(astro@5.1.9):
-    resolution: {integrity: sha512-MM4P4rwF9Lypb49TQKa3tbuDZqwrL36wI2O5UTJIuH5H+ugSYx9FUxr6j3DqTwxDclHbwX/VBt5f9OXfAE/zRQ==}
-    peerDependencies:
-      astro: '>=2.7.1'
-    dependencies:
-      astro: 5.1.9(typescript@5.7.3)
     dev: false
 
   /lucide-react@0.474.0(react@19.0.0):
