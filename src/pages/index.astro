@@ -1,6 +1,6 @@
 ---
 import '@/styles/globals.css'
-import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbSeparator, BreadcrumbPage } from '@/components/ui/breadcrumb'
+import { ChevronRight } from "lucide-react"
 ---
  
 <html lang="en">
@@ -8,18 +8,8 @@ import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbS
 		<title>Astro</title>
 	</head>
 	<body>
-		<Breadcrumb>
-			<BreadcrumbList>
-			  <BreadcrumbItem className="hidden md:block">
-				<BreadcrumbLink href="#">
-				  Building Your Application
-				</BreadcrumbLink>
-			  </BreadcrumbItem>
-			  <BreadcrumbSeparator className="hidden md:block" />
-			  <BreadcrumbItem>
-				<BreadcrumbPage>Data Fetching</BreadcrumbPage>
-			  </BreadcrumbItem>
-			</BreadcrumbList>
-		  </Breadcrumb>
+		<h1>Welcome to Astro</h1>
+		<p>Click the arrow to get started</p>
+		<ChevronRight />
 	</body>
 </html>
